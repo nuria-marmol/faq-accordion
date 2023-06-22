@@ -106,6 +106,7 @@ body {
 .faq__question-block > button {
     background-color: transparent;
     border: unset;
+    cursor: pointer;
 }
 
 /* Arrow */
