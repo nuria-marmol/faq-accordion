@@ -27,9 +27,9 @@ articles.forEach(function (article) {
             title.style.fontWeight = "400";
             arrow.classList.remove("turn");
             answer.classList.remove("show");     
-            article.style.height = `${article.offsetHeight - answer.offsetHeight}px`;                        
+            article.style.height = `${article.offsetHeight - answer.offsetHeight}px`;                      
         }  
     });
 })
 
-window.addEventListener("load", definingArticleHeight);
+document.addEventListener("DOMContentLoaded", definingArticleHeight);
