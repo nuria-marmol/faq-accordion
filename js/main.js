@@ -28,9 +28,8 @@ articles.forEach(function (article) {
             arrow.classList.remove("turn");
             answer.classList.remove("show");     
             article.style.height = `${article.offsetHeight - answer.offsetHeight}px`;                        
-        }     
+        }  
     });
 })
 
-
-definingArticleHeight();
+window.addEventListener("load", definingArticleHeight);
