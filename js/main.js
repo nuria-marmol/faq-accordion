@@ -32,4 +32,4 @@ articles.forEach(function (article) {
     });
 })
 
-document.addEventListener("DOMContentLoaded", definingArticleHeight);
+definingArticleHeight();
