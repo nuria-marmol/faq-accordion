@@ -72,9 +72,9 @@ body {
     color: var(--color-dark-blue);
 }
 
-.faq__questions-answers > article {
-    /* Height will be defined using JavaScript */
+.faq__questions-answers > article { 
     overflow: hidden;
+    height: fit-content;
     cursor: pointer;
     transition: 1s;
 }
@@ -121,13 +121,14 @@ body {
 
 .faq__answer {
     opacity: 0;
-    /* Padding instead of margin so we can read the whole height with offsetHeight */
-    padding-bottom: .75rem;
-    color: var(--color-light-grey);
+    height: 0;
+    color: var(--color-light-grey);   
+    transition: 1.5s;
 }
 
 .show {
     opacity: 1;
+    height: fit-content;  
 }
 
 /* Mobile */
