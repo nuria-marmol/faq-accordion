@@ -23,7 +23,6 @@
     font-weight: 700;
 }
 
-
 body,
 h1,
 h2,
@@ -33,6 +32,8 @@ p {
 
 body {
     background: linear-gradient(var(--color-purple), var(--color-medium-blue));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: "Kumbh", sans-serif;
     font-size: .9rem;
 }
@@ -123,7 +124,7 @@ body {
     opacity: 0;
     height: 0;
     color: var(--color-light-grey);   
-    transition: 1.5s;
+    transition: .5s;
 }
 
 .show {
